@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ecde8339.css",
+    "main.js": "/static/js/main.8963fa18.js",
+    "static/media/croods-card.jpg": "/static/media/croods-card.dd0f6db3381cefd77d8b.jpg",
+    "static/media/the-meg.jpg": "/static/media/the-meg.942dbb3020438d5b5f68.jpg",
+    "static/media/ready-player-one.jpg": "/static/media/ready-player-one.e945ac8135fcf0b94f03.jpg",
+    "static/media/meg-card.jpg": "/static/media/meg-card.835f20b1d47037e33076.jpg",
+    "static/media/snwh-card.jpg": "/static/media/snwh-card.eb47d86ba21be1fa6558.jpg",
+    "static/media/50955.jpg": "/static/media/50955.26f2f3cd27bb55f458b1.jpg",
+    "static/media/spiderman-no-way-home.webp": "/static/media/spiderman-no-way-home.f7b180b989beb188191b.webp",
+    "static/media/avatar-the-way-of-water.jpg": "/static/media/avatar-the-way-of-water.d27a6877c787ed396494.jpg",
+    "static/media/aquaman.jpg": "/static/media/aquaman.f9d53c6e3ac92d12123f.jpg",
+    "static/media/user3.png": "/static/media/user3.30935e0dcfb1642e9cfb.png",
+    "static/media/jurassic-domination.jpg": "/static/media/jurassic-domination.4d36feef273bd8e04e3b.jpg",
+    "static/media/godzilla-vs-kong.jpg": "/static/media/godzilla-vs-kong.93d03a69bce66da7bc8b.jpg",
+    "static/media/croods.jpg": "/static/media/croods.863d67e293264a7d5251.jpg",
+    "static/media/infinity-war.jpg": "/static/media/infinity-war.c046613b7125dd207e68.jpg",
+    "static/media/moonfall-card.jpg": "/static/media/moonfall-card.15a9a09b3e50651b2c97.jpg",
+    "static/media/godzilla poster.jpg": "/static/media/godzilla poster.a6530842f065fa0f6c77.jpg",
+    "static/media/rpo-card.jpg": "/static/media/rpo-card.85b2d4d420163a0d5f6f.jpg",
+    "static/media/moonfall.jpg": "/static/media/moonfall.fb395c925e475df188a8.jpg",
+    "static/media/user4.webp": "/static/media/user4.72edfe61468d8208ff52.webp",
+    "static/media/jurassic-domination-card.jpg": "/static/media/jurassic-domination-card.582ce88663faa9db38cb.jpg",
+    "static/media/infinitywarcard.avif": "/static/media/infinitywarcard.c911735bfcef231735dc.avif",
+    "static/media/aquamancard.webp": "/static/media/aquamancard.2248a7aa18a93c8be084.webp",
+    "static/media/404.png": "/static/media/404.b62588bb718e5e477c89.png",
+    "static/media/user1.webp": "/static/media/user1.ecfad379feda17a95a74.webp",
+    "static/media/user5.webp": "/static/media/user5.2801005e7974ba180973.webp",
+    "static/media/user2.webp": "/static/media/user2.fbc9e5f698361b52567f.webp",
+    "static/media/avatar_the_way_of_water_card.jpg": "/static/media/avatar_the_way_of_water_card.4290598d3cf62e50c90d.jpg",
+    "static/media/ninjaxx-logo.png": "/static/media/ninjaxx-logo.3935b0d11a888e679b46.png",
+    "index.html": "/index.html",
+    "main.ecde8339.css.map": "/static/css/main.ecde8339.css.map",
+    "main.8963fa18.js.map": "/static/js/main.8963fa18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecde8339.css",
+    "static/js/main.8963fa18.js"
+  ]
+}
