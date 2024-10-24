@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ecde8339.css",
-    "main.js": "/static/js/main.8963fa18.js",
+    "main.js": "/static/js/main.070a314a.js",
     "static/media/croods-card.jpg": "/static/media/croods-card.dd0f6db3381cefd77d8b.jpg",
     "static/media/the-meg.jpg": "/static/media/the-meg.942dbb3020438d5b5f68.jpg",
     "static/media/ready-player-one.jpg": "/static/media/ready-player-one.e945ac8135fcf0b94f03.jpg",
@@ -32,10 +32,10 @@
     "static/media/ninjaxx-logo.png": "/static/media/ninjaxx-logo.3935b0d11a888e679b46.png",
     "index.html": "/index.html",
     "main.ecde8339.css.map": "/static/css/main.ecde8339.css.map",
-    "main.8963fa18.js.map": "/static/js/main.8963fa18.js.map"
+    "main.070a314a.js.map": "/static/js/main.070a314a.js.map"
   },
   "entrypoints": [
     "static/css/main.ecde8339.css",
-    "static/js/main.8963fa18.js"
+    "static/js/main.070a314a.js"
   ]
 }
