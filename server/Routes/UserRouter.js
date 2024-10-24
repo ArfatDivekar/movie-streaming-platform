@@ -28,7 +28,7 @@ router.post("/favourites", protect, addLikedMovies);
 router.delete("/favourites", protect, deleteLikedMovies);
 
 // ********** PRIVATE ROUTES **********
-router.get("/all", /* protect, admin, */ getUsers);
+router.get("/", protect, admin, getUsers);
 router.delete("/:id", protect, admin, deleteUser);
 
 export default router;
