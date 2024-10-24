@@ -1,10 +1,10 @@
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv"
+import dotenv from "dotenv";
 import { connectDB } from "./config/db.js";
-import userRouter from "./Routes/UserRouter.js"
-import moviesRouter from "./Routes/MoviesRouter.js"
-import categoriesRouter from "./Routes/CategoriesRouter.js"
+import userRouter from "./Routes/UserRouter.js";
+import moviesRouter from "./Routes/MoviesRouter.js";
+import categoriesRouter from "./Routes/CategoriesRouter.js";
 import { errorHandler } from "./middlewares/errorMiddleware.js";
 import Uploadrouter from "./Controllers/UploadFiles.js";
 
@@ -17,22 +17,23 @@ app.use(express.json());
 // connect DB
 connectDB();
 
-// Main route 
-app.get('/', (req, res) => {
-    res.send('Hii there Arfat...');
+// Main route
+app.get("/", (req, res) => {
+  res.send("Hii there Arfat...");
 });
 
-// Other route 
+// Other route
 app.use("/api/users", userRouter);
 app.use("/api/movies", moviesRouter);
 app.use("/api/categories", categoriesRouter);
 app.use("/api/upload", Uploadrouter);
 
-// error handling middleware 
-app.use(errorHandler)
+// error handling middleware
+app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+const PORT =
+  process.env.PORT || "https://movie-streaming-platform-s25p.onrender.com";
 
 app.listen(PORT, () => {
-    console.log(`Server running in http://localhost/${PORT}`)
-})
+  console.log(`Server running in http://localhost/${PORT}`);
+});
