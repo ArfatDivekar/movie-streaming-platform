@@ -27,13 +27,13 @@ const WatchPage = () => {
     (state) => state.getMovieById
   );
 
-    //Download movie Video
-    const DownloadMovieVideo = async (videoUrl, name) => {
-      await DownloadVideo(videoUrl, setprogress).then((data) => {
-        setprogress(0);
-        FileSaver.saveAs(data, name);
-      });
-    };
+  //Download movie Video
+  const DownloadMovieVideo = async (videoUrl, name) => {
+    await DownloadVideo(videoUrl, setprogress).then((data) => {
+      setprogress(0);
+      FileSaver.saveAs(data, name);
+    });
+  };
 
   // const movie = Movies.find((movie) => movie.name === id);
   const [play, setPlay] = useState(false);
@@ -57,13 +57,13 @@ const WatchPage = () => {
           </button>
 
           {/* <div className="sm:w-auto flex-btn w-full gap-5"> */}
-            {/* Add to favourite btn */}
-            {/* <button className="bg-white hover:text-subMain transitions bg-opacity-30 text-white rounded px-4 py-3 text-sm">
+          {/* Add to favourite btn */}
+          {/* <button className="bg-white hover:text-subMain transitions bg-opacity-30 text-white rounded px-4 py-3 text-sm">
               <FaHeart />
             </button> */}
 
-            {/* Add to download btn */}
-            {/* <button
+          {/* Add to download btn */}
+          {/* <button
               disabled={progress > 0 && progress < 100} 
               onClick={() => DownloadMovieVideo(movie?.video, movie?.name)}
               className="bg-subMain hover:text-white flex-rows gap-2 transitions font-medium text-white rounded px-8 py-3 text-sm">
@@ -94,17 +94,23 @@ const WatchPage = () => {
               <>
                 <div className="absolute bg-main bg-opacity-30 left-0 right-0 top-0 bottom-0 flex-colo">
                   <button
-                    onClick={() => setPlay(true)}
+                    // onClick={() => setPlay(true)}
+                    onClick={() =>
+                      alert(
+                        "I haven't added the trailer's because they make the site load slower. Sorry :)"
+                      )
+                    }
                     className="bg-white text-subMain flex-colo border border-subMain rounded-full w-20 h-20 font-medium text-xl"
                   >
                     <FaPlay />
                   </button>
                 </div>
 
-                <img 
-                    src={movie?.image ? movie?.image : `/images/50955.jpg`} 
-                    alt={movie?.name} 
-                    className="w-full h-full object-cover rounded-lg"/>
+                <img
+                  src={movie?.image ? movie?.image : `/images/50955.jpg`}
+                  alt={movie?.name}
+                  className="w-full h-full object-cover rounded-lg"
+                />
               </>
             )}
           </div>
